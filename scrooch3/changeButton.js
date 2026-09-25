@@ -1,7 +1,7 @@
 (function () {
   function updateButton() {
     const links = document.querySelectorAll(
-      'a.menu-bar_feedback-link_1BnAR[href="https://scratch.mit.edu/discuss/topic/636814/"]'
+      'a.menu-bar_feedback-link_1BnAR[href="https://windmod.github.io/upload.html/"]'
     );
 
     links.forEach(link => {
