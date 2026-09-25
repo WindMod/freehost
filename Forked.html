@@ -14,6 +14,33 @@
     </style>
 </head>
 <body>
+    <a href="https://github.com/WindMod/freehost/fork" data-link-id="forked">Forked</a>
+    <style>
+        /* BEAUTY STYLING */
+         a:visited {
+             color: purple;
+         }
+        <
+    </style>
+    <script>
+        document.addEventListener('click', (event) => {
+            const link = event.target.closest('a[href]');
+            if (!link) return;
+
+            const LinkId = link.dataset.linkId || link.href;
+
+            // SEND TO BACK-end
+            fetch('/track_visit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify
+                    link_id: linkId,
+                    href: link.href,
+                visited_at: new Date().toISOString()
+        })
+        });
+        });
+    </script>
     <h1>Succesfully Forked</h1>
     <p>You just forked the repo! Now lets build your Scratch mod.</p>
 </body>
