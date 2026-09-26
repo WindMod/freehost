@@ -8,8 +8,8 @@
         <g id="mixed-fill">
             <g id="mixed-fill-icon" transform="translate(2.000000, 2.500000)">
                 <circle id="blue" fill="#FF4C4C" cx="4.5" cy="10.5" r="4.5"></circle>
-                <circle id="red" fill="#FF5500" cx="8" cy="4.5" r="4.5"></circle>
-                <circle id="yellow" fill="#FFBF00" cx="11.4099998" cy="10.5" r="4.5"></circle>
+                <circle id="gray" fill="#808080" cx="8" cy="4.5" r="4.5"></circle>
+                <circle id="purple" fill="#6F2DA8" cx="11.4099998" cy="10.5" r="4.5"></circle>
             </g>
         </g>
     </g>
